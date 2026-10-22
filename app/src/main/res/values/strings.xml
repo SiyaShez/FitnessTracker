@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fitness Tracker</string>
+    <string name="log_workout_title">Log Workout</string>
+
+    <string name="total_calories_label">Total Calories Burned</string>
+    <string name="total_calories_value">%1$s kcal</string>
+    <string name="total_workouts_label">Workouts Logged</string>
+    <string name="progress_overview">Progress Overview</string>
+    <string name="recent_workouts">Recent Workouts</string>
+    <string name="btn_log_workout">Log Workout</string>
+    <string name="empty_list">No workouts yet. Tap "Log Workout" to add your first one!</string>
+
+    <string name="hint_workout_type">Workout type (e.g. Running)</string>
+    <string name="hint_duration">Duration (minutes)</string>
+    <string name="hint_calories">Calories burned</string>
+    <string name="label_intensity">Intensity</string>
+    <string name="btn_save">Save Workout</string>
+
+    <string name="duration_format">%1$d min</string>
+    <string name="calories_format">%1$s kcal</string>
+
+    <string name="error_type_required">Please enter a workout type</string>
+    <string name="error_duration_invalid">Enter a duration greater than 0</string>
+    <string name="error_calories_invalid">Enter calories greater than 0</string>
+    <string name="error_number_too_large">Number is too large</string>
+    <string name="msg_saved">Workout saved</string>
+    <string name="msg_save_failed">Could not save workout. Please try again.</string>
+    <string name="msg_deleted">Workout deleted</string>
+    <string name="msg_delete_failed">Could not delete workout.</string>
+    <string name="msg_load_failed">Could not load workouts.</string>
+
+    <string name="dialog_delete_title">Delete workout?</string>
+    <string name="dialog_delete_message">Are you sure you want to delete this %1$s workout? This cannot be undone.</string>
+    <string name="dialog_delete">Delete</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="cd_delete">Delete workout</string>
+
+    <string-array name="intensity_levels">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+</resources>
